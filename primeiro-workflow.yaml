@@ -2,7 +2,7 @@ nome: Devops Workflow
 on: 
   push:
     branches:
-      -main
+      - main
 
 jobs:
   build:
@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name:Checkout de Código
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
 
       - name: Mostrar Mensagem
         run: echo "olá, Mundo Devops !"
