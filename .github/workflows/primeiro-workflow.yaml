@@ -14,7 +14,7 @@ jobs:
       - name: Build Aplicacao mensagem
         run: echo "Estou Buildando a Aplicação!"
   dev:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
     needs: build
 
     steps:
