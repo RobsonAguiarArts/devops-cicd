@@ -1,4 +1,4 @@
-nome: Devops Workflow
+name: Devops Workflow
 
 on:
   push:
